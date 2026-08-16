@@ -1,2 +1,0 @@
-git push -u origin bug-fix-typo
-curl -s https://api.github.com/repos/vaishnavi729/mcino-Introduction-to-Git-and-GitHub/pulls/1

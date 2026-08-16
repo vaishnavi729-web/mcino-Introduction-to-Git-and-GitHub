@@ -1,0 +1,8 @@
+git branch -vv
+bug-fix-typo 86bf2be [origin/bug-fix-typo] Fix typo
+* main         0b502ad [origin/main] Create bug-fix-revert
+git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
