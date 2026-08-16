@@ -1,0 +1,15 @@
+PS D:\mcino-Introduction-to-Git-and-GitHub\mcino-Introduction-to-Git-and-GitHub> git checkout -b bug-fix-typo
+Switched to a new branch 'bug-fix-typo'
+PS D:\mcino-Introduction-to-Git-and-GitHub\mcino-Introduction-to-Git-and-GitHub> git add .
+>> git commit -m "Fix typo"
+[bug-fix-typo 86bf2be] Fix typo
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS D:\mcino-Introduction-to-Git-and-GitHub\mcino-Introduction-to-Git-and-GitHub> git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+PS D:\mcino-Introduction-to-Git-and-GitHub\mcino-Introduction-to-Git-and-GitHub> git merge bug-fix-typo
+Updating 2785179..86bf2be
+Fast-forward
+ README.md | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS D:\mcino-Introduction-to-Git-and-GitHub\mcino-Introduction-to-Git-and-GitHub> 
